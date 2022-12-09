@@ -1,7 +1,24 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  display: flex;
+  height: 100%;
 }
-
+.body-app {
+  flex: 1;
+  background-color: #f7f7f7;
+  height: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

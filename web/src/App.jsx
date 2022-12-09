@@ -1,25 +1,38 @@
+import { Box, Container } from "@mui/system";
 import React from "react";
-import logo from "./logo.svg";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "./App.css";
+import NavBar from "./components/NavBar";
+import About from "./pages/About";
+import Home from "./pages/Home";
+
+const outerTheme = createTheme({
+  palette: {
+    text: {
+      primary: "#0F2B46",
+    },
+    primary: {
+      main: "#0F2B46",
+    },
+  },
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={outerTheme}>
+      <BrowserRouter>
+        <NavBar />
+        <Box className="body-app" style={{ height: "100%" }}>
+          <Container>
+            <Routes>
+              <Route path="/about" element={<About />} />
+              <Route path="*" element={<Home />} />
+            </Routes>
+          </Container>
+        </Box>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }
 
