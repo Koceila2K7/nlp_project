@@ -5,7 +5,14 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-const MODELS = ["Randomforest", "LDA", "BRED", "Bag Of Word", "TextVectoriser"];
+const MODELS = [
+  "tfidf_sv_model",
+  "bow_sv_model",
+  "tfidf_lr_model",
+  "bow_lr_model",
+  "bow_rf_model",
+  "lda_model",
+];
 
 export default function ModelSelector({ value, onChange }) {
   return (

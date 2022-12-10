@@ -86,7 +86,13 @@ function NavBar() {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
+                    {page === "Rapport" ? (
+                      <a href="https://koceila2k7.github.io/nlp_project/">
+                        <Typography textAlign="center">{page}</Typography>
+                      </a>
+                    ) : (
+                      <Typography textAlign="center">{page}</Typography>
+                    )}
                   </MenuItem>
                 ))}
               </Menu>
@@ -188,7 +194,13 @@ function NavBar() {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
+                    {page === "Rapport" ? (
+                      <a href="https://koceila2k7.github.io/nlp_project/">
+                        <Typography textAlign="center">{page}</Typography>
+                      </a>
+                    ) : (
+                      <Typography textAlign="center">{page}</Typography>
+                    )}
                   </MenuItem>
                 ))}
               </Menu>
@@ -215,15 +227,27 @@ function NavBar() {
               style={{ color: "#0F2B46" }}
               sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
             >
-              {pages.map((page) => (
-                <Button
-                  key={page}
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2, display: "block" }}
-                >
-                  {page}
-                </Button>
-              ))}
+              {pages.map((page) =>
+                page === "Rapport" ? (
+                  <Button
+                    key={page}
+                    onClick={handleCloseNavMenu}
+                    sx={{ my: 2, display: "block" }}
+                  >
+                    <a href="https://koceila2k7.github.io/nlp_project/">
+                      {page}
+                    </a>
+                  </Button>
+                ) : (
+                  <Button
+                    key={page}
+                    onClick={handleCloseNavMenu}
+                    sx={{ my: 2, display: "block" }}
+                  >
+                    {page}
+                  </Button>
+                )
+              )}
             </Box>
           </Toolbar>
         </Container>

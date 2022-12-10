@@ -1,0 +1,17 @@
+## LDA 5 topics ##
+
+{
+0: ['game', 'england', 'win', 'cup', 'play', 'players', 'match', 'world', 'injury', 'games', 'team', 'club', 'season', 'coach', 'ireland', 'time', 'final', 'good', 'open', 'second'], 
+
+1: ['people', 'year', 'market', 'new', 'mr', 'firm', 'sales', 'technology', 'company', 'growth', '2004', 'mobile', 'users', 'uk', 'software', 'economy', '000', 'music', 'net', 'million'], 
+
+2: ['mr', 'labour', 'government', 'blair', 'party', 'election', 'wales', 'brown', 'minister', 'people', 'howard', 'secretary', 'prime', 'public', 'plans', 'told', 'chancellor', 'tory', 'tax', 'tories'], 
+
+3: ['film', 'best', 'awards', 'award', 'star', 'music', 'films', 'tv', 'year', 'director', 'number', 'including', 'new', 'series', 'uk', 'british', 'london', 'years', 'office', 'life'], 
+
+4: ['court', 'mr', 'company', 'bid', 'offer', 'case', 'firm', 'deal', 'bank', 'club', 'financial', 'legal', 'group', 'sale', 'chief', 'executive', 'pay', 'board', 'agreed', 'accused']
+}
+
+## conclusion ##
+
+lda_classes = {0:'sport', 1:'tech', 2:'politics', 3:'entertainment', 4:'business'}

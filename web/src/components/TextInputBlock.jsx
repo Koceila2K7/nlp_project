@@ -7,6 +7,7 @@ export default function TextInputBlock({
   onChange,
   value,
   handleOnClassClick,
+  result,
 }) {
   return (
     <Grid
@@ -32,7 +33,7 @@ export default function TextInputBlock({
       </Grid>
 
       <Grid item md={6} xs={12}>
-        <TextResult />
+        <TextResult result={result} />
       </Grid>
     </Grid>
   );

@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  flask-server:
+    build:
+      context: ./server/
+    ports:
+      - 5000:5002
+  react-app:
+    build:
+      context: ./web/
+    ports:
+      - 5001:80
+  

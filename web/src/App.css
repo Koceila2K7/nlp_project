@@ -30,6 +30,12 @@ body {
   }
 }
 
+a,
+a:visited {
+  text-decoration: none;
+  color: #0f2b46;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

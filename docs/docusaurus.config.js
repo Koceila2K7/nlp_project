@@ -8,16 +8,16 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Projet NLP",
   tagline: "Classification de texte",
-  url: "https://github.com",
-  baseUrl: "/",
+  url: "https://Koceila2K7.github.io",
+  baseUrl: "/nlp_project/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Saclay", // Usually your GitHub org/user name.
-  projectName: "ProjetNLP", // Usually your repo name.
+  organizationName: "Koceila2K7", // Usually your GitHub org/user name.
+  projectName: "nlp_project", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
