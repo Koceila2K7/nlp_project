@@ -4,7 +4,25 @@ sidebar_position: 3
 
 # Bag of word and TF IDF
 
-**mettre une définition de bag of word**
+### Bag of word
+
+La technique Bag of Words (sac de mots en français) est un modèle de traitement de textes qui consiste à représenter un texte sous la forme d'un sac de mots (ou vecteur de mots). Cette technique consiste à ignorer la grammaire et l'ordre des mots dans le texte et à se concentrer uniquement sur la présence ou l'absence de chaque mot dans le texte.
+
+Pour représenter un texte sous la forme d'un sac de mots, on commence par créer un vocabulaire de tous les mots possibles qui peuvent apparaître dans les textes. Ensuite, pour chaque texte, on compte le nombre d'occurrences de chaque mot dans le vocabulaire et on crée un vecteur de comptage qui indique combien de fois chaque mot du vocabulaire apparaît dans le texte.
+
+La technique Bag of Words est souvent utilisée en traitement de langage naturel et en apprentissage automatique pour analyser et classer des textes. Elle est particulièrement utile pour traiter des textes de grande taille ou de grandes quantités de textes car elle permet de représenter efficacement le contenu d'un texte sans tenir compte de sa structure syntaxique ou de son ordre de mots.
+
+### TFIDF
+
+TF-IDF (abréviation de term frequency-inverse document frequency, fréquence des termes - inverse de la fréquence des documents en français) est une technique de traitement de textes utilisée pour évaluer l'importance d'un mot dans un document par rapport à un ensemble de documents.
+
+La fréquence des termes (TF) mesure la fréquence d'apparition d'un mot dans un document. Plus un mot apparaît souvent dans un document, plus sa fréquence est élevée.
+
+L'inverse de la fréquence des documents (IDF) mesure l'importance d'un mot dans l'ensemble des documents. Plus un mot est rare dans l'ensemble des documents, plus son IDF est élevé.
+
+Pour calculer le score TF-IDF d'un mot dans un document, on multiplie sa fréquence par son IDF. Ainsi, les mots qui sont fréquents dans un document mais rares dans l'ensemble des documents ont un score TF-IDF élevé, indiquant qu'ils sont importants pour le document en question.
+
+TF-IDF est souvent utilisée en traitement de langage naturel et en apprentissage automatique pour analyser et classer des documents. Elle peut être utilisée pour extraire des mots-clés d'un document, pour trouver des documents similaires ou pour classer des documents en fonction de leur contenu.
 
 ```bash
 from sklearn.model_selection import train_test_split

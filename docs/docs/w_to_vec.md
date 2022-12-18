@@ -6,6 +6,14 @@ sidebar_position: 7
 
 ### 7 Word2Vec
 
+Word2vec est un modèle de traitement de langage naturel utilisé pour apprendre des représentations vectorielles de mots (appelées "vecteurs de mots") à partir de grandes collections de textes. Ces vecteurs de mots sont des représentations numériques de chaque mot qui reflètent leur signification ou leur sens dans le contexte des autres mots.
+
+Word2vec utilise un réseau de neurones pour apprendre ces vecteurs de mots. Le modèle prend en entrée un texte et prédit le mot suivant dans le texte en utilisant le mot courant et les mots précédents comme entrées. Le modèle est entraîné sur une grande collection de textes de manière à minimiser l'erreur de prédiction du mot suivant.
+
+Une fois entraîné, le modèle peut être utilisé pour obtenir des vecteurs de mots pour n'importe quel mot dans le vocabulaire. Ces vecteurs de mots peuvent être utilisés dans de nombreuses tâches de traitement de langage naturel, telles que la reconnaissance de la parole, la traduction automatique et la recherche de documents similaires.
+
+Word2vec a été largement utilisé dans de nombreux domaines et a été très influent dans le développement de l'apprentissage automatique pour le traitement du langage naturel.
+
 ```bash
 from nltk import sent_tokenize
 import gensim

@@ -4,7 +4,13 @@ sidebar_position: 4
 
 # Logistic Regression
 
-**mettre une définition de Logistic Regression**
+La régression logistique est un modèle de classification utilisé en apprentissage automatique pour prédire une variable cible qui prend deux valeurs possibles (par exemple, oui/non, vrai/faux). Elle est souvent utilisée pour prédire l'appartenance d'un échantillon à l'une ou l'autre des classes.
+
+La régression logistique est basée sur une fonction de régression logistique, qui est une fonction mathématique utilisée pour modéliser la probabilité d'appartenance à l'une des classes en fonction de différentes variables explicatives (également appelées variables indépendantes ou caractéristiques). La régression logistique utilise cette fonction pour estimer la probabilité de chaque classe pour chaque échantillon en fonction des valeurs des variables explicatives.
+
+Pour entraîner un modèle de régression logistique, on utilise un jeu de données d'entraînement qui comprend des échantillons avec leurs valeurs de variables explicatives et leur valeur de la variable cible connue. On utilise ces données pour ajuster les coefficients de la fonction de régression logistique de manière à minimiser l'erreur de prédiction du modèle. Une fois le modèle entraîné, on peut utiliser les coefficients ajustés pour prédire la classe d'un nouvel échantillon en fonction de ses valeurs de variables explicatives.
+
+La régression logistique est souvent utilisée dans de nombreux domaines, tels que la médecine, le marketing et la finance, pour prédire la probabilité d'un événement futur (par exemple, la probabilité qu'un patient développe une maladie, la probabilité qu'un client achète un produit ou la probabilité qu'une entreprise dépose son bilan). Elle est également souvent utilisée comme base pour construire d'autres modèles de classification plus complexes.
 
 ```bash
 from sklearn.model_selection import train_test_split

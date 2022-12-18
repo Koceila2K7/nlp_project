@@ -4,6 +4,12 @@ sidebar_position: 9
 
 # BERT
 
+BERT (Bidirectional Encoder Representations from Transformers) est un modèle de traitement du langage naturel développé par Google en 2018. C'est un modèle de prétraitement de texte qui peut être utilisé comme base pour différentes tâches de traitement du langage naturel, telles que la reconnaissance de la parole, la traduction automatique et la compréhension du langage naturel.
+
+BERT utilise un réseau de neurones basé sur le modèle de transformer, qui est un modèle de traitement du langage naturel utilisant des attentions pour traiter des séquences de mots dans un ordre arbitraire. BERT est bidirectionnel, ce qui signifie qu'il prend en compte le contexte des mots à la fois avant et après chaque mot dans une phrase, ce qui lui permet d'avoir une meilleure compréhension du sens des mots dans le contexte de la phrase.
+
+BERT a été entraîné sur de grandes collections de textes et a atteint de très bons résultats dans de nombreuses tâches de traitement du langage naturel. Il est souvent utilisé comme modèle de base pour de nombreuses tâches de traitement du langage naturel et a été largement adopté par de nombreuses entreprises et organisations du monde entier.
+
 ### 9 BERT
 
 ```bash

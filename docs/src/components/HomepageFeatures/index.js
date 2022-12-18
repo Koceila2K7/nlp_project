@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Plusieurs techniques sont testée dans le cadre de projet,{" "}
+        Plusieurs techniques sont testées dans le cadre du projet,{" "}
         <code>BOW</code>,<code>TF-IDF</code>, <code>...</code>
       </>
     ),
@@ -28,9 +28,10 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        La réalisation de projet et son déploiement nécessite plusieurs
-        technologie : <code>React</code>,<code>Sklearn</code>,<code>Flask</code>
-        ,<code>FastAPI</code>,<code>Swagger</code>,<code>Docker</code> ...
+        La réalisation du projet et son déploiement nécessitent plusieurs
+        technologies : <code>React</code>,<code>Sklearn</code>,
+        <code>Flask</code>,<code>FastAPI</code>,<code>Swagger</code>,
+        <code>Docker</code>, <code>pythonanywhere</code>, <code>...</code>
       </>
     ),
   },

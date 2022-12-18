@@ -6,6 +6,12 @@ sidebar_position: 8
 
 ### 8 LDA
 
+LDA (Latent Dirichlet Allocation) est un modèle de traitement de textes utilisé pour découvrir les thèmes ou les sujets cachés dans un ensemble de documents. Il s'agit d'un modèle de classification de documents qui permet de regrouper des documents en fonction de leur contenu en utilisant un nombre prédéterminé de thèmes.
+
+Pour utiliser LDA, on commence par spécifier le nombre de thèmes que l'on souhaite découvrir dans les documents. Ensuite, on utilise un processus d'apprentissage automatique pour attribuer chaque mot dans chaque document à l'un des thèmes. Le modèle utilise une distribution de probabilité pour déterminer la probabilité de chaque mot pour chaque thème et pour déterminer la probabilité de chaque thème pour chaque document.
+
+Une fois le modèle entraîné, on peut utiliser les probabilités estimées pour classer de nouveaux documents en fonction de leur contenu et pour trouver des documents similaires. LDA est souvent utilisé dans de nombreux domaines, tels que l'analyse de sentiments, la recherche de documents et la recommandation de contenu, pour découvrir des thèmes cachés dans des documents.
+
 ```bash
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer

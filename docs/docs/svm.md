@@ -4,7 +4,13 @@ sidebar_position: 6
 
 # SVM
 
-**mettre une définition of SVM**
+Le SVM (Support Vector Machine) est un modèle d'apprentissage automatique utilisé pour la classification et la régression. Il consiste à trouver un hyperplan dans un espace à n dimensions qui sépare le mieux possible les différentes classes de données.
+
+Pour illustrer, imaginez que vous avez des données de deux classes, A et B, qui sont séparées par un hyperplan. Un SVM cherchera à trouver l'hyperplan qui sépare le mieux les deux classes de données en maximisant la distance entre l'hyperplan et les points les plus proches de chaque classe (appelés vecteurs de support). Cette distance est appelée marge.
+
+Le SVM est souvent utilisé lorsque les données ne peuvent pas être séparées de manière linéaire et qu'il est nécessaire d'utiliser une fonction de transformation non linéaire pour séparer les données. Dans ce cas, le SVM utilise une fonction de transformation appelée noyau pour projeter les données dans un espace à plus haute dimension où elles peuvent être séparées de manière linéaire.
+
+Le SVM est souvent utilisé dans de nombreux domaines, notamment la reconnaissance de formes, la vision par ordinateur et la détection de spam, pour classer des données en deux ou plusieurs classes.
 
 ### 6.1 SVM BoW
 
